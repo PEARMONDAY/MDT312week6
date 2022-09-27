@@ -1,0 +1,22 @@
+body
+{
+    background: rgb(150, 114, 179); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, rgb(150, 114, 179),  rgb(115, 25, 189)); /* For Safari 5.1 to 6.0 */
+}
+form
+{
+    color: aliceblue;
+}
+@media only screen and (max-width: 767px){
+    body
+    {
+        background-color: rgb(150, 114, 179);
+    }  
+} 
+
+@media only screen and (max-width: 500px){
+    body
+    {
+        background-color: rgb(115, 25, 189);
+    }
+}  
